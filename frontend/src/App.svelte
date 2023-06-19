@@ -1,6 +1,7 @@
 <script>
   import Router from "svelte-spa-router"
   import Home from "./routes/Home.svelte"
+  import Navigation from "./components/Navigation.svelte"
   import Detail from "./routes/Detail.svelte"
   import QuestionCreate from "./routes/QuestionCreate.svelte"
 
@@ -11,4 +12,5 @@
   }
 </script>
 
+<Navigation />
 <Router {routes} />
